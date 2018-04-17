@@ -7,3 +7,17 @@ setInterval(function() {
 
 	h1.style.color = 'rgba(' + r + ',' + g + ',' + b + ',0.3)';
 }, 100)
+
+
+function movemouse(e){
+
+	var dog = document.getElementById('dog');
+
+	var x = event.clientX;
+	var y = event.clientY;
+
+	dog.style.left = x + 'px';
+	dog.style.top = y + 'px';
+}
+
+window.addEventListener('mousemove', movemouse);

@@ -28,3 +28,9 @@ h1 {
 	background-blend-mode: lighten;
 	margin: 0;
 }
+
+#dog {
+	left: 0;
+	top: 0;
+	position: absolute;
+}
