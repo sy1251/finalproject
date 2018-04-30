@@ -1,5 +1,5 @@
 setInterval(function() {
-	var h1 = document.getElementById("txt");
+	var h1 = document.getElementById("cur_txt");
 
 	var r = Math.floor(Math.random()*256);
 	var g = Math.floor(Math.random()*256);
@@ -13,8 +13,8 @@ function movemouse(e){
 
 	var dog = document.getElementById('dog');
 
-	var x = event.clientX;
-	var y = event.clientY;
+	var x = e.clientX;
+	var y = e.clientY;
 
 	dog.style.left = x + 'px';
 	dog.style.top = y + 'px';

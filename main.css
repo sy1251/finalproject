@@ -16,17 +16,38 @@
 	mix-blend-mode: overlay;
 }
 
+#balloon, #gun {
+	position: absolute;
+	margin: auto;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+canvas {
+	background-color: white;
+}
+
 body {
 	margin: 0;
 	background-color: black;
 }
 
-h1 {
+#cur_txt {
 	color: rgba(0, 0, 0, 0.3);
-	font-size: 10em;
+	font-size: 8em;
 	font-family: 'Herr Von Muellerhoff', cursive;
 	background-blend-mode: lighten;
 	margin: 0;
+	position: absolute;
+}
+
+#cap_txt {
+	color: rgba(255, 0, 0, 0.7);
+	font-family: 'Rozha One', serif;
+	font-size: 5em;
+	z-index: -1;
 }
 
 #dog {
