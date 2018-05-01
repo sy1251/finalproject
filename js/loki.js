@@ -2,8 +2,9 @@ var canvas = document.getElementById('screen');
 canvas.width = window.innerWidth * 0.9;
 canvas.height = window.innerHeight * 0.9;
 var context = canvas.getContext('2d');
+
 var confettis = [];
-var num = 1000;
+var num = 700;
 
 function colorGenerator(){
 	var colors = ['#EE7571', '#F3BB8A', '#F3F38A', '#93C888', '#88C8B5', '#8890C8', '#AA88C8'];
@@ -39,8 +40,8 @@ function draw(){
 function makeConfetti(x, y){
 	this.x = x;
 	this.y = y;
-	this.size = Math.random() * 15;
-	this.gravity = Math.random()* 0.7;
+	this.size = Math.random() * 20;
+	this.gravity = Math.random()* 0.9;
 	this.rotation = Math.PI * 2 * Math.random();
 	this.rotationSpeed = Math.PI * 2 * Math.random() * 0.006;
 	this.color = colorGenerator();

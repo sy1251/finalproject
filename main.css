@@ -11,10 +11,10 @@ canvas {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: -1;
+	z-index: -2;
 }
 
-#balloon, #gun {
+#balloon, #gun, #window {
 	position: absolute;
 	margin: auto;
 	top: 0;
@@ -36,4 +36,12 @@ body {
 	font-family: 'Rozha One', serif;
 	font-size: 5em;
 	z-index: -1;
+}
+
+video, #window {
+	display: none;
+}
+
+#window {
+	opacity: 0.5;
 }
