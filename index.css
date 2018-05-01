@@ -1,0 +1,48 @@
+#container {
+	width: 250px;
+	height: 100%;
+	margin: auto;
+}
+
+html {
+	background: url('media/wall.jpg') no-repeat center center fixed;
+	background-size: cover;
+	overflow: hidden;
+	height: 100%;
+}
+
+#context {
+	width: 250px;
+	height: 321px;
+	position: absolute;
+	margin: auto;
+}
+
+.poster {
+	width: 250px;
+	height: 321px;
+	position: absolute;
+	transition: transform 500ms;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.24);
+}
+
+#loki {
+	background-image: url('media/loki.jpg');
+	left: -300px;
+}
+
+#lucifer {
+	background-image: url('media/lucifer.jpg');
+}
+
+#vindici {
+	background-image: url('media/vindici.jpg');
+	left: 300px;
+}
+
+#txt {
+	color: rgba(255, 0, 0, 0.7);
+	font-family: 'Rozha One', serif;
+	font-size: 5em;
+	text-align: center;
+}
