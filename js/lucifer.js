@@ -27,8 +27,8 @@ function draw(){
 	context.clearRect(0, 0, referenceWidth, referenceHeight);
 
 	context.putImageData(imgdata, 0, 0);
-	var window = document.getElementById('window');
-	context.drawImage(window, 0, 0, canvas.width, canvas.height);
+	var windows = document.getElementById('window');
+	context.drawImage(windows, 0, 0, canvas.width, canvas.height);
 	requestAnimationFrame(draw);
 }
 
