@@ -11,11 +11,17 @@ function draw(){
 	var x = Math.random()* (canvas.width + 200);
 	var y = Math.random()* (canvas.height + 270);
 	context.drawImage(img, x, y);
-	requestAnimationFrame(draw);
+	if(num%2 === 0){
+		requestAnimationFrame(draw);
+	}
 }
 
 var mask = document.getElementById('mask');
 
+var num = 1;
+
 mask.addEventListener('click', function(){
+	num ++;
 	draw();
+
 })
