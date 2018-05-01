@@ -2,13 +2,26 @@ Final Project
 =============
 
 
-I have been a fan of plays and musicals for a long time, and I would like to share my experiences on the ones that I loved the most. I will focus on to visually emphasize the unique part that made this play/musical special to me.
+I have been a fan of plays and musicals for a long time, and I would like to share my experiences on the one that I loved the most. I will focus on to visually emphasize the unique part that made this play special to me.
 
 
-My first choice is the play *Curious Incident of the Dog in the Nighttime* and the most interesting factor of this play was the usage of LED screens on the cubic stage and the futuristic lightings. The image that follows the mouse cursor is what the main character of this play follows through this entire plot, so I wanted to express that in design.
+The play that I chose is *Capone Trilogy* which is a play divided into three episodes:
+
+1. Loki
+2. Lucifer
+3. Vindici
 
 
-While this first example focused on the video and colors, another page will be about a play called *Capone Trilogy* which is a play done in an extremely small room rather than an actual stage, so it will have a completely different feeling but I will continue with the same theme of ‘theater on web’ feeling.
+First, I designed my index page to look like three posters are on the wall. I used javascript to create movements to the poster images as the user's mouse moves so that the poster will seem more realistic rather than a flat image. Clicking on each image leads to the page of each episode. I used same red font for titles for all pages for unified design.
 
 
-I designed my page to have black borders instead of being completely fullscreen since I wanted the page to have more of a theater-like effect. I am also planning to add more user-interactive features through javascript so that the users could be more involved in this experience. Main page is planned to include ticket icons done by svg to lead to each sub-pages and additional effects.
+*Loki* starts with a simple red balloon and when the user clicks on the balloon, a gun appears with colorful confettis falling down. The confettis were created by drawing multiple rectangles through html canvas with randomly derived color, width, height, gravity, position within the canvas. The keypoint of this episode was that it seems like a comedy but behind it, there is death, murder, and tragedy hidden as the story reaches the end. I tried to express that through the drawing.
+
+
+*Lucifer* is a serious episode that happens inside a room. The drawing expresses the view of female character from inside of the room through the window because she is not allowed to leave the room. I made the video to be visible only through a small window, rather than full-browser, so that the users will feel that same feeling as if they only have to see the world in a small room.
+
+
+Lastly, *Vindici* has a single mask on the page. When the user clicks on the mask, masks infinitely pops up and fill the canvas. In this story, the main character Vindici tries to revenge and during his plan, he deceives other people. Yet, those people also deceive Vindici, new truths pop up, and the situation changes a lot throughout the story. I tried to express this by infinitely adding masks to the screen.
+
+
+The main mission of my project was to make the users feel the same feeling as what I experienced in theater, watching all those three episodes.
