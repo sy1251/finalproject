@@ -1,6 +1,6 @@
 var canvas = document.getElementById('screen');
-canvas.width = 1280;
-canvas.height = 720;
+canvas.width = window.innerWidth * 0.9;
+canvas.height = window.innerHeight * 0.9;
 var context = canvas.getContext('2d');
 var confettis = [];
 var num = 1000;
